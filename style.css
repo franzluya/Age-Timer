@@ -1,0 +1,14 @@
+body {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background: #e0e0e0;
+}
+
+.larger {
+	font-size: 3rem;
+}
+
+#output {
+	display: none;
+}
