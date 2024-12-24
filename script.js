@@ -26,7 +26,7 @@ function startTimer(dob) {
 		const ageInt = Math.floor(totalAgeInYears);
 		const ageDecimal = (totalAgeInYears - ageInt).toFixed(9);
 
-		ageEl.innerHTML = `<span class="larger">${ageInt}.</span>${ageDecimal.substring(
+		ageEl.innerHTML = `<span class="larger">${ageInt}</span>.${ageDecimal.substring(
 			2
 		)}`;
 	}, 100);
